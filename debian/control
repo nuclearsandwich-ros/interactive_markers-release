@@ -1,0 +1,12 @@
+Source: ros-turbulent-interactive-markers
+Section: misc
+Priority: extra
+Maintainer: William Woodall <william@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-ament-cmake, ros-turbulent-ament-cmake-gtest, ros-turbulent-ament-cmake-python, ros-turbulent-ament-lint-auto, ros-turbulent-ament-lint-common, ros-turbulent-geometry-msgs, ros-turbulent-rclcpp, ros-turbulent-rmw, ros-turbulent-tf2, ros-turbulent-tf2-geometry-msgs, ros-turbulent-visualization-msgs, ros-turbulent-ros-workspace
+Homepage: http://ros.org/wiki/interactive_markers
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-interactive-markers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-builtin-interfaces, ros-turbulent-rclcpp, ros-turbulent-rclpy, ros-turbulent-rmw, ros-turbulent-std-msgs, ros-turbulent-tf2, ros-turbulent-tf2-geometry-msgs, ros-turbulent-visualization-msgs, ros-turbulent-ros-workspace
+Description: 3D interactive marker communication library for RViz and similar tools.
